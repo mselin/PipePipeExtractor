@@ -70,7 +70,8 @@ public final class NewPipe {
         downloader = d;
         preferredLocalization = l;
         preferredContentCountry = c;
-        trustEveryone();
+        // trustEveryone() is no longer called here: it switched certificate and host-name
+        // checks off for every HttpsURLConnection of the process, not only for the extractor.
     }
 
     public static Downloader getDownloader() {
