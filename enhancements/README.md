@@ -1,5 +1,7 @@
 # The fork's own work on the extractor
 
+> Working state, design doc and roadmap of the fork's work: [`docs/HANDOVER.md`](../docs/HANDOVER.md), which points to the client fork.
+
 Branches, as in the client fork (`mselin/PipePipeClient`):
 
 - `main` is an exact copy of upstream. It is only ever updated with "Sync fork".
